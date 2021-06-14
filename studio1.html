@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Youtube up!</title>
+
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
+	<style>
+
+			@font-face {
+
+	font-family: abster;
+	src:url(font/abster-webfont.woff) format('woff');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+	width: 1280px;
+	margin : 0 auto;
+}
+.header {
+	height: 100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+
+}
+
+.header span {
+	color: red;
+	font-family: abster;
+}
+
+.header h1 a {
+	display: inline-block;
+	text-decoration: none;
+	color: #2D2D2D;
+	font-family: abster;
+	font-size: 36px;
+}
+
+.nav ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: #2D2D2D;
+	transition: all .4s;
+}
+
+.nav ul li a:hover {
+	color: red;
+}
+
+
+
+
+
+.menu{
+		padding-top: 40px;
+		padding-bottom: 20px;
+		width: 800px;
+		text-align: center;
+		margin-bottom: 60px;
+		margin-left:320px;
+	}
+	.menu a{
+		text-align: center;
+		text-decoration: none;
+		color: #000000;
+		font-size: 25px;
+		margin-right: 90px;
+		margin-right: 90px;
+		font-family: abster;
+		transition: all .4s;
+
+			}
+
+
+	.menu a:hover{
+		background-color: red;
+		color:#ffffff;
+		border-radius: 20px;
+	}
+
+
+
+.pmenubox {
+	text-align: center;
+	margin-bottom: 40px;
+
+
+}
+
+
+
+.contents {
+	width: 150px;
+	height: 100px;
+	background-color: gray;
+	color: white;
+	font-size : 2rem;
+	text-align: center;
+	display: inline-block;
+	margin-left: 12px; 
+	margin-right: 12px;
+	border-radius: 20px;
+	line-height: 100px;
+	margin-bottom: 80px;
+
+}
+
+.contents a {
+	text-decoration: none;
+	font-weight: 500;
+	color: white;
+}
+
+
+.clearfix {
+	clear: left;
+}
+
+.redbox {
+	margin: 0 auto;
+	background-color: red;
+	width: 200px;
+	height: 8px;
+	margin-bottom: 20px; 
+}
+
+.description {
+	margin-bottom: 40px;
+}
+
+ .space {
+display: block;
+box-shadow : 0 2px 4px 0 rgba(0,0,0,0.15);
+text-decoration: none;
+margin-bottom:  40px;
+font-family: 'Noto Sans KR', sans-serif;
+border-radius: 20px;
+
+}
+
+.space h4 {
+	font-size: 18px;
+	color: #4A4A4A;
+}
+
+.space p {
+	color: red;
+}
+
+.space hr {
+	color: red;
+}
+.space .space-image {
+display:block;
+border-radius: 20px;
+}
+
+.space .info {
+margin-top: 10px;
+padding : 10px;
+line-height: 10px;
+margin-left: 12px;
+margin-right: 12px;
+
+}
+
+#red {
+	color: red;
+}
+​
+#gray {
+	color: #606060;
+}
+.space .info h4 {
+font-size:20px;
+color:#4A4A4A;
+margin-bottom: 10px;
+}
+
+.space .info p {
+	font-size: 16px;
+}
+
+.space .info .num{
+font-size: 12px;
+color:#4A4A4A;
+font-weight: 700;
+}
+
+.space .info .price{
+font-size: 16px;
+color:black;
+font-weight: 700;
+margin-left: 10px;
+}
+
+.box {
+	display: inline-block;
+	background color: red;
+	color: white;
+	border-radius: 20px;
+
+
+}
+
+
+
+.tuber {
+  position: relative;
+  top: 40px;
+  left : 10px; 
+  background-color: red;
+  border-radius: 12px;
+  color: white;
+  padding : 8px;
+  font-size: 12px;
+  width: 142px;
+  text-align: center;
+}
+
+
+#black {
+	color: black;
+}
+
+</style>
+
+</head>
+
+<body>
+		
+
+<div class="header">
+			<h1><a href="#">YOUTUBE <span>UP</span></a></h1>
+			<div class="nav">
+				<ul>
+					<li><a href="#">SERVICE</a></li>
+					<li><a href="#">PORTFOLIO</a></li>
+					<li><a href="#">ARTICLE</a></li>
+					<li><a href="#">RECRUIT</a></li>
+
+				</ul>
+			</div>
+		</div>
+<div class="menu">
+	   <a href="homepage.html" class="menu-a">HOME</a>
+	   <a href="#" class="menu-a">STUDIO</a>
+	   <a href="#" class="menu-a">EQUIPMENT</a>
+	   <a href="#" class="menu-a">EDITOR</a>
+	</div>
+
+
+		<div class="pmenubox">
+
+<div class="contents" style="background-image: url('image/cook.jpg')"><a href="#">COOK</a></div>
+<div class="contents"  style="background-image: url('image/beauty.jpg')"><a href="#" id="black">BEAUTY</a></div>
+<div class="contents" style="background-image: url('image/look.jpg')"><a href="#" id="black">FASHION</a></div>
+<div class="contents" style="background-image: url('image/health.jpg')"><a href="#" id="black">HEALTH</a></div>
+<div class="contents" style="background-image: url('image/dance.jpg')"><a href="#">DANCE</a></div>
+<div class="contents" style="background-image: url('image/song.jpg')"><a href="#">SONG</a></div>
+
+</div>
+
+<div class="redbox"> </div>
+<div class="description">
+<h2 id="e" style="text-align: center">COOK</h2>
+<p style="text-align: center">요리할때도 분위기가 중요하다. 여기서 쿡방을한다면? 나는야 고든램지!</p> </div>
+
+
+
+<div class="container">
+<div class="tuber">유튜버 '승우아빠' PICK</div>
+<div class="row">
+
+<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+<a href="studio2.html" class="space">
+<img class="space-image" src="image/cook1.jpg" width="100%">
+
+<div class="info">
+<p>키친ㆍ서울</p>
+<h4>오트밀 블룸</h4>
+<hr>
+<div class="usernum">
+<img src="image/star.png" width="12px" height="12px"> <span class="num"> 5.0 </span> <span class="price"> 58,000원 </span> <div class="box"> dmddddmd</div>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+<a href="#" class="space">
+<img class="space-image" src="image/cook2.jpg" width="100%">
+<div class="info">
+<p>주택ㆍ서울</p>
+<h4>무무모모 러브하우스</h4>
+<hr>
+<div class="usernum">
+<img src="image/star.png" width="12px" height="12px"> <span class="num"> 4.8 </span> <span class="price"> 69,000원 </span>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+<a href="#" class="space">
+<img class="space-image" src="image/cook3.jpg" width="100%">
+<div class="info">
+<p>주택ㆍ서울</p>
+<h4>치코앤 치카</h4>
+<hr>
+<div class="usernum">
+<img src="image/star.png" width="12px" height="12px"> <span class="num"> 5.0 </span> <span class="price"> 150,000원 </span>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+<a href="#" class="space">
+<img class="space-image" src="image/cook4.jpg" width="100%" >
+<div class="info">
+<p>아파트ㆍ서울</p>
+<h4>라이커 호텔</h4>
+<hr>
+<div class="usernum">
+<img src="image/star.png" width="12px" height="12px"> <span class="num"> 4.7 </span> <span class="price"> 380,000원 </span>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+<a href="#" class="space">
+<img class="space-image" src="image/cook5.jpg" width="100%" >
+<div class="info">
+<p>원룸ㆍ인천</p>
+<h4>층고높은 감성하우스</h4>
+<hr>
+<div class="usernum">
+<img src="image/star.png" width="12px" height="12px"> <span class="num"> 4.6 </span> <span class="price"> 89,000원 </span>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+<a href="#" class="space">
+<img class="space-image" src="image/cook6.jpg" width="100%">
+<div class="info">
+<p>주택ㆍ경기</p>
+<h4>THE FLOAT EAST</h4>
+<hr>
+<div class="usernum">
+<img src="image/star.png" width="12px" height="12px"> <span class="num"> 5.0 </span> <span class="price"> 99,000원 </span>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+<a href="#" class="space">
+<img class="space-image" src="image/cook7.jpg"width="100%">
+<div class="info">
+<p>주택ㆍ인천</p>
+<h4>청라 하우스</h4>
+<hr>
+<div class="usernum">
+<img src="image/star.png" width="12px" height="12px"> <span class="num"> 4.7 </span> <span class="price"> 82,000원 </span>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+<a href="#" class="space">
+<img class="space-image" src="image/cook8.jpg" width="100%">
+<div class="info">
+<p>키친ㆍ경기</p>
+<h4>온더레벨</h4>
+<hr>
+<div class="usernum">
+<img src="image/star.png" width="12px" height="12px"> <span class="num"> 4.5 </span> <span class="price"> 90,000원 </span>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+
+</body>
+
+
+
+</html>

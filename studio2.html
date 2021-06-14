@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Youtube up!</title>
+
+	<style>
+
+			@font-face {
+
+	font-family: abster;
+	src:url(font/abster-webfont.woff) format('woff');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+	width: 1280px;
+	margin : 0 auto;
+}
+
+
+
+.header {
+	height: 100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 48px;
+
+
+}
+
+.header span {
+	color: red;
+	font-family: abster;
+}
+
+.header h1 a {
+	display: inline-block;
+	text-decoration: none;
+	color: #2D2D2D;
+	font-family: abster;
+	font-size: 36px;
+}
+
+.nav ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: #2D2D2D;
+	transition: all .4s;
+}
+
+.nav ul li a:hover {
+	color: red;
+}
+
+.spanable{
+
+	display: inline-block;
+}
+
+.mainarea {
+	display: inline-block;
+}
+
+.photoarea {
+	display: inline-block;
+	border-radius: 20px;
+	width: 800px;
+	height: 480px;
+	background-color: gray;
+	margin-top: 48px;
+	background-image: url('image/cook1.jpg');
+
+}
+
+.pricearea {
+	display: inline-block;
+	border-radius: 20px;
+	border:0.5px solid #4A4A4A;
+	width: 428px;
+	height: 480px;
+	margin-left: 40px;
+}
+
+</style>
+
+</head>
+
+<body>
+		
+
+<div class="header">
+			<h1><a href="#">YOUTUBE <span>UP</span></a></h1>
+			<div class="nav">
+				<ul>
+					<li><a href="#">SERVICE</a></li>
+					<li><a href="#">PORTFOLIO</a></li>
+					<li><a href="#">ARTICLE</a></li>
+					<li><a href="#">RECRUIT</a></li>
+
+				</ul>
+			</div>
+		</div>
+
+
+
+
+		<div class="fistspace">
+		<p>키친ㆍ서울</p>
+		<h2>오트밀 블룸</h2>
+		<img src="image/star.png" width="12px" height="12px"> <span class="spanable"><p>5.0 #리뷰5개</p></span>
+		</div>
+
+
+		<div class="mainarea">
+			<div class="photoarea"></div>
+
+			<div class="pricearea"></div>
+
+		</div>
+	</div>
+
+	</body>
+
+	</html>
